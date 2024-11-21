@@ -17,6 +17,8 @@ const App = () => {
       })
   }, [])
 
+  
+
   const handleFilterChange = (event) => {
     setNewFilter(event.target.value)
     if (newFilter) {
